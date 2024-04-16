@@ -1,0 +1,19 @@
+<!-- bottom_nav_menu.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_all_ads"
+        android:icon="@drawable/baseline_article_24"
+        android:title="Все" />
+    <item
+        android:id="@+id/nav_favorite"
+        android:icon="@drawable/baseline_star_24"
+        android:title="Избранное" />
+    <item
+        android:id="@+id/nav_my_ads"
+        android:icon="@drawable/baseline_settings_accessibility_24"
+        android:title="Мои" />
+    <item
+        android:id="@+id/nav_create_ad"
+        android:icon="@drawable/baseline_add_24"
+        android:title="Создать" />
+</menu>
