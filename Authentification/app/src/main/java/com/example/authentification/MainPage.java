@@ -39,6 +39,8 @@ public class MainPage extends Fragment {
                 selectedFragment = new CreateAdFragment();
             } else if(item.getItemId() == R.id.nav_all_ads){
                 selectedFragment = new AllAdsFragment();
+            } else if (item.getItemId() == R.id.nav_my_ads){
+                selectedFragment = new UserAdsFragment();
             }
             if (selectedFragment != null) {
                 FragmentManager fragmentManager = requireActivity().getSupportFragmentManager();

@@ -55,12 +55,14 @@ public class CreateAdFragment extends Fragment {
         String author = authorEditText.getText().toString();
         String description = descriptionEditText.getText().toString();
         String userEmail = mAuth.getCurrentUser().getEmail();
+        String userId = mAuth.getCurrentUser().getUid();
 
         Map<String, Object> ad = new HashMap<>();
         ad.put("title", title);
         ad.put("author", author);
         ad.put("description", description);
         ad.put("userEmail", userEmail);
+        ad.put("userId", userId);
 
         // Добавляем объявление в коллекцию "ads" в Cloud Firestore
         FirebaseFirestore db = FirebaseFirestore.getInstance();
