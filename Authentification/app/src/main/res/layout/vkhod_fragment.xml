@@ -17,11 +17,13 @@
             android:gravity="center_vertical"
             android:background="@color/material_dynamic_neutral90"
             android:textSize="20sp"
+            android:textColorHint="@color/black"
             android:textColor="@color/black"></EditText>
         <EditText
             android:layout_width="300dp"
             android:layout_height="75dp"
             android:id="@+id/password"
+            android:textColorHint="@color/black"
             android:hint="Password"
             android:gravity="center_vertical"
             android:background="@color/material_dynamic_neutral90"

@@ -13,6 +13,7 @@
         android:id="@+id/email"
         android:hint="E-MAIL"
         android:layout_margin="40dp"
+        android:textColorHint="@color/black"
         android:gravity="center_vertical"
         android:background="@color/material_dynamic_neutral90"
         android:textSize="20sp"
@@ -20,6 +21,7 @@
     <EditText
         android:layout_width="300dp"
         android:layout_height="75dp"
+        android:textColorHint="@color/black"
         android:id="@+id/password"
         android:inputType="textPassword"
         android:hint="Password"
